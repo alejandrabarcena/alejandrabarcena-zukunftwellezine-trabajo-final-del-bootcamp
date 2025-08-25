@@ -1,0 +1,27 @@
+{
+  "name": "Zukunft Welle Zine",
+  "short_name": "ZukunftWelle",
+  "description": "Eine digitale Zeitschrift für junge Internationale mit Leidenschaft für STEAM, Technologie, Kunst und Kultur",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "news", "technology"],
+  "lang": "de-DE",
+  "dir": "ltr"
+}
