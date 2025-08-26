@@ -1,96 +1,101 @@
+🌊 Zukunft Welle Fanzine – Full-Stack Final Project
 
+🖥️ Aplicación Full-Stack desarrollada como proyecto final de bootcamp.
+El proyecto combina React.js (Front-End) y Flask + SQLAlchemy (Back-End), con integración a Supabase y APIs de terceros.
+Además, incluye funcionalidades de Blog + E-commerce, con sistema de autenticación seguro.
 
-# 🖥️ Full-Stack Final Project
+🚀 Tecnologías
+🔹 Front-End
 
-Este proyecto consiste en el desarrollo de una aplicación **Full-Stack** con **React (Front-End)** y **Flask (Back-End)**, conectados a una base de datos mediante **SQLAlchemy**, además de integraciones con **APIs de terceros**.
+React 18 + Vite ⚡
 
----
+Context API (manejo de estado global)
 
-## 🚀 Tecnologías a usar
-- **Front-End**
-  - React.js (con Context API)
-  - JavaScript (ES6+)
-  - Bootstrap (UI Components)
+Bootstrap 5 + Tailwind (UI Components y estilos responsivos)
 
-- **Back-End**
-  - Python
-  - Flask (API personalizada con JWT Authentication)
-  - SQLAlchemy (ORM)
-  - Postman (para pruebas de API)
+Lucide React (íconos modernos)
 
-- **Otros**
-  - API(s) de terceros
-  - Librerías adicionales para optimización y calidad
+🔹 Back-End
 
----
+Python 3.11
 
-## 📌 User Stories
-1. **Registro de usuario, autenticación y restablecimiento de contraseña**  
-   - Las contraseñas deben almacenarse **cifradas**, nunca en texto plano.
-   
-2. **Navegación y contenido dinámico**  
-   - El proyecto debe incluir al menos **3 vistas de contenido adicionales** y un **CRUD completo**.  
-   - Ejemplos:  
-     - Blog: Home, listado de artículos, detalle de artículo con comentarios.  
-     - E-commerce: Home, listado de productos, carrito de compras, detalle de producto.  
+Flask (API con Blueprints + JWT Authentication)
 
-3. **Integración con APIs de terceros**  
-   - Consumir y procesar información de una o más APIs externas.  
-   - Aprovechar librerías externas para mejorar la calidad del proyecto y acelerar el desarrollo.  
+SQLAlchemy (ORM + Migrations)
 
----
+Supabase (Base de datos y autenticación)
 
-## 🖼️ Wireframes (ejemplo)
-- **Home:** Vista principal con navegación y acceso a secciones.
-- **Listado:** Página que muestra elementos (artículos/productos).
-- **Detalle:** Vista detallada de un artículo/producto con posibilidad de comentarios o compra.
-- **Auth:** Pantallas de Login, Registro y Recuperación de contraseña.
+Postman (pruebas de API)
 
----
+🔹 Otros
 
-## 🧪 Pruebas
-- Uso de **Postman** para validar:
-  - Endpoints de autenticación (login, registro, logout, reset password).  
-  - Endpoints CRUD (crear, leer, actualizar, eliminar).  
-  - Integración con APIs externas.  
+APIs externas (integración de datos)
 
----
+Librerías para optimización y calidad (ej. ESLint, Prettier)
 
+📌 User Stories
 
-# 🌊 Zukunft Welle Fanzine
+✅ Registro y autenticación segura con contraseñas cifradas.
+✅ CRUD completo (artículos, productos, usuarios).
+✅ Navegación dinámica con mínimo 3 vistas adicionales.
+✅ Blog: Home, listado de artículos, detalle con comentarios.
+✅ E-commerce: Home, listado de productos, carrito, checkout simulado.
+✅ Integración de APIs externas para enriquecer contenido.
 
-## 🎯 Misión
-Nuestra misión es crear una plataforma digital para jóvenes que se apasionen por **STEAM** (Ciencia, Tecnología, Ingeniería, Artes, Matemáticas), la **cultura** y los **idiomas**.  
-Queremos hacer que el conocimiento sea **accesible, creativo e interactivo**, sin fronteras.  
+🖼️ Wireframes (ejemplo)
 
-Creemos que la **educación, la diversidad y la innovación** son claves para construir la sociedad del mañana.  
+Home: Vista principal con navegación a secciones.
 
----
+Listado: Artículos o productos en tarjetas.
 
-## 🌍 Visión
-Nuestra visión es una **comunidad global** en la que los **Millennials** y la **Generación Z** compartan sus ideas, perspectivas y talentos.  
+Detalle: Vista con descripción, imágenes y comentarios.
 
-*Zukunft Welle Fanzine* quiere convertirse en un espacio donde los jóvenes puedan:  
-- 🌐 Aprender nuevos idiomas  
-- 💻 Comprender y aplicar tecnologías  
-- 🎨 Descubrir el arte y la cultura  
-- 🤝 Vivir la diversidad como una fortaleza  
+Auth: Login, Registro, Password Reset.
 
-Soñamos con un mundo en el que el **conocimiento no sea exclusivo**, sino **libre e inspirador para todos**.  
+🧪 Pruebas
 
----
+Con Postman se validan:
 
-## 💡 Valores
+Endpoints de autenticación (login, register, logout, reset password).
 
-- 🌍 **Multiculturalidad** – Celebramos la diversidad cultural y la vemos como una oportunidad para la innovación.  
-- 🌈 **Diversidad** – Damos espacio a diferentes voces: sexuales, culturales, neurodiversas y sociales.  
-- 🔎 **Curiosidad** – Promovemos una actitud de aprendizaje a lo largo de toda la vida.  
-- 🎭 **Creatividad** – Conectamos arte, ciencia y tecnología en nuevas formas.  
-- 🌱 **Sostenibilidad** – Apostamos por una acción responsable en la sociedad, la economía y el medio ambiente.  
-- 💬 **Diálogo** – Creamos un foro para un intercambio abierto, respetuoso e internacional.  
+CRUD completo (create, read, update, delete).
 
----
+APIs externas.
 
-✨ **Zukunft Welle Fanzine** – Donde el conocimiento fluye como una ola que conecta culturas, ideas y generaciones.
+🌊 Sobre Zukunft Welle Fanzine
+🎯 Misión
 
+Crear una plataforma digital para jóvenes apasionados por STEAM, cultura e idiomas, donde el conocimiento sea accesible, creativo e interactivo.
+
+🌍 Visión
+
+Formar una comunidad global donde Millennials y Gen Z compartan ideas y talentos.
+
+💡 Valores
+
+🌍 Multiculturalidad – Diversidad cultural como motor de innovación.
+
+🌈 Diversidad – Voces sexuales, culturales, neurodiversas y sociales.
+
+🔎 Curiosidad – Aprendizaje a lo largo de la vida.
+
+🎭 Creatividad – Arte + Ciencia + Tecnología.
+
+🌱 Sostenibilidad – Acción responsable en sociedad y medio ambiente.
+
+💬 Diálogo – Intercambio abierto y respetuoso.
+
+✨ Zukunft Welle Fanzine – Donde el conocimiento fluye como una ola que conecta culturas, ideas y generaciones.
+
+📂 Estructura del Proyecto
+/public
+   └── images/products   # imágenes de productos
+/src
+   ├── components        # Header, Footer, Layout, UI
+   ├── config            # contenido editable
+   ├── data              # seeds de artículos y productos
+   ├── hooks             # custom hooks (auth, analytics, etc.)
+   ├── pages             # rutas principales
+   ├── lib               # supabase.js (conexión DB)
+   └── App.jsx, main.jsx
 
